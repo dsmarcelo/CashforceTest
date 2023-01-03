@@ -14,6 +14,7 @@ defineProps({
       viewBox="0 0 24 24"
       class="icon-menu-proposta"
       src="/icon_menu_proposta_selected.svg"
+      alt="Icone Notas Fiscais"
     />
     <p class="menu-item-name">{{ name }}</p>
   </router-link>

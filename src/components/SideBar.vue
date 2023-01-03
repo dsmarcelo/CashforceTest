@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import MenuItem from "../components/MenuItem.vue";
 
-const list = [{ id: 1, name: "Notas fiscais" }];
+const list = [{ name: "Notas fiscais" }];
 </script>
 
 <template>
@@ -11,7 +11,7 @@ const list = [{ id: 1, name: "Notas fiscais" }];
         <img class="main-logo" src="/Logo.svg" />
       </a>
       <nav v-for="item in list" :key="item.name">
-        <MenuItem :name="item.name" :id="item.id" />
+        <MenuItem :name="item.name" />
       </nav>
     </div>
   </aside>
